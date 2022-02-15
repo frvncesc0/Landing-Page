@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Negozio vinili</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="./fontawesome/css/all.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <div id="page-wrapper">
+
+    <!-- HTML HEADER -->
+    <header id="header">
+
+      <div class="logo">
+        <img id="header-img" src="https://th.bing.com/th/id/R.f6f0aff5d2190d7d4a8e9dda8718aeeb?rik=ctzWkwh0eYssYA&riu=http%3a%2f%2fwww.emtec-international.com%2fsites%2fdefault%2ffiles%2fstyles%2fproduct%2fpublic%2fproduct-image%2fcd-r-vinyl.png%3fitok%3dpHEVN6Lt&ehk=r0y4klCS%2btFyHdp9ZIbmWJXkINLiuVFTpDIpRu3QaPg%3d&risl=&pid=ImgRaw&r=0" alt="logo vinile">
+      </div>
+
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#hero">Caratteristiche</a></li>
+          <li><a class="nav-link" href="#caratteristiche-section">Video dimostrativo</a></li>
+          <li><a class="nav-link" href="#prezzi-section">Prezzi</a></li>
+        </ul>
+      </nav>
+
+    </header>
+
+    <!-- HTML SEZIONE DI ISCRIZIONE -->
+    <section id="hero">
+
+      <h2>Vuoi ricevere aggiornamenti sulle prossime uscite?</h2>
+      <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+        <input id="email" type="email" name="email" placeholder="Inserisci la tua Email..." required> <br>
+        <input id="submit" type="submit" name="submit" value="Iscriviti" class="btn">
+      </form>
+
+    </section>
+
+    <!-- HTML DELLE CARATTERISTICHE, DEL VIDEO E DEI PREZZI -->
+    <div class="container">
+
+      <section id="caratteristiche-section">
+
+        <div class="grid">
+          <div class="icon"><i class="fa-solid fa-compact-disc"></i></div>
+          <div class="desc">
+            <h2>Qualità del suono superiore</h2>
+            <p>Disco assolutamente perfetto sotto ogni aspetto. Se ne parla spesso ma lo si vede molto raramente.</p>
+          </div>
+        </div>
+
+        <div class="grid">
+          <div class="icon"><i class="fa-solid fa-truck"></i></div>
+          <div class="desc">
+            <h2>Consegna garantita entro 48h</h2>
+            <p>Spedizione più veloce d'Italia. Forniamo anche resi gratuiti se non sei soddisfatto.</p>
+          </div>
+        </div>
+
+        <div class="grid">
+          <div class="icon"><i class="fa-solid fa-hand-holding-dollar"></i></div>
+          <div class="desc">
+            <h2>Pagamento alla consegna</h2>
+            <p>Hai l'opportunità di pagare direttamente alla consegna, cosa aspetti?</p>
+          </div>
+        </div>
+
+      </section>
+
+      <section id="video-section">
+        <iframe id="video" width="700" height="350" src="https://www.youtube.com/embed/Tz-VYurYJ6o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </section>
+
+      <section id="prezzi-section">
+
+        <div class="product" id="single-vinyl">
+          <div class="level">Vinile singolo</div>
+          <h2>24,99€</h2>
+          <ol>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum.</li>
+          </ol>
+          <button class="btn">Acquista</button>
+        </div>
+
+        <div class="product" id="double-vinyl">
+          <div class="level">Bundle doppio vinile</div>
+          <h2>39,99€</h2>
+          <ol>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum.</li>
+          </ol>
+          <button class="btn">Acquista</button>
+        </div>
+
+        <div class="product" id="triple-vinyl">
+          <div class="level">Bundle triplo vinile</div>
+          <h2>49,99€</h2>
+          <ol>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum.</li>
+          </ol>
+          <button class="btn">Acquista</button>
+        </div>
+
+      </section>
+
+    </div>
+
+    <!-- HTML FOOTER -->
+    <footer>
+      <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Termini</a></li>
+        <li><a href="#">Contatti</a></li>
+      </ul>
+      <span>Copyright 2022, Vinyl Records</span>
+
+    </footer>
+
+  </div>
+
+  </body>
+</html>
